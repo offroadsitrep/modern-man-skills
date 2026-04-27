@@ -8,7 +8,7 @@
       name="description"
       content="A meditation on the moment many capable men hit somewhere in midlife, and why this is actually the best window for using AI to reshape what comes next."
     />
-    <link rel="stylesheet" href="../assets/styles.css?v=20260427-1250" />
+    <link rel="stylesheet" href="../assets/styles.css?v=20260427-2230" />
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/brand/favicon-32.png" />
     <link rel="apple-touch-icon" href="../assets/brand/favicon-180.png" />
@@ -70,6 +70,7 @@
     <!-- /SEO/social meta -->
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <div class="topbar">Practical tools. Plain English. No hype.</div>
     <header class="site-header">
       <div class="masthead">
@@ -87,7 +88,7 @@
         ><a href="../workflows/index.html">Workflows</a><a href="../about.html">About</a>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <nav class="breadcrumb-bar">
         <a href="../index.html">Modern Man Skills</a> &nbsp;/&nbsp;
         <a href="../articles/index.html">Guides</a>
@@ -364,11 +365,14 @@
           </div>
           <form class="signup-form" data-signup>
             <div class="row">
-              <input type="email" name="email" placeholder="your@email.com" required /><button
-                type="submit"
-              >
-                Sign me up
-              </button>
+              <label for="signup-email" class="visually-hidden">Email address</label>
+              <input
+                id="signup-email"
+                type="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              /><button type="submit">Sign me up</button>
             </div>
             <input type="hidden" name="source" value="article" />
             <div class="msg" data-signup-message></div>

@@ -1,4 +1,28 @@
+# Default headers — applied to all responses
 /*
-  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
-  Pragma: no-cache
-  Expires: 0
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# HTML pages — short cache so updates propagate quickly (5 min)
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Site root (also serves index.html)
+/
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Static assets — long cache, version-busted via ?v= query string in HTML
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Favicons and icons — long cache
+/favicon.ico
+  Cache-Control: public, max-age=2592000
+
+# Sitemap and robots — short cache so search engines see updates
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+/robots.txt
+  Cache-Control: public, max-age=3600

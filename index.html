@@ -8,7 +8,7 @@
       name="description"
       content="Practical AI guidance and modern skills for men who refuse to get left behind. No hype. No jargon. No talking down."
     />
-    <link rel="stylesheet" href="assets/styles.css?v=20260427-1250" />
+    <link rel="stylesheet" href="assets/styles.css?v=20260427-2230" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png" />
     <link rel="apple-touch-icon" href="assets/brand/favicon-180.png" />
@@ -78,6 +78,7 @@
     <!-- /SEO/social meta -->
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <div class="topbar">Practical tools. Plain English. No hype.</div>
     <header class="site-header">
       <div class="masthead">
@@ -94,7 +95,7 @@
         ><a href="workflows/index.html">Workflows</a><a href="about.html">About</a>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <section class="cover">
         <a class="cover-lead" href="articles/the-tools-stay-the-skills-compound.html"
           ><div class="cover-img">
@@ -105,7 +106,7 @@
             />
           </div>
           <div class="cover-copy">
-            <h1>The Tools Stay. The Skills Compound.</h1>
+            <h1>The Tools Stay, the Skills Compound.</h1>
             <p>
               The actual asset isn't AI. It's the skill of learning new tools quickly — and staying
               useful while the world keeps moving.
@@ -429,11 +430,14 @@
           </div>
           <form class="signup-form" data-signup>
             <div class="row">
-              <input type="email" name="email" placeholder="your@email.com" required /><button
-                type="submit"
-              >
-                Sign me up
-              </button>
+              <label for="signup-email" class="visually-hidden">Email address</label>
+              <input
+                id="signup-email"
+                type="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              /><button type="submit">Sign me up</button>
             </div>
             <input type="hidden" name="source" value="homepage" />
             <div class="hint">Your email is used for the dispatch. That’s it.</div>

@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Why I Stopped Tool-Hopping (And You Should Too) | Modern Man Skills</title>
+    <title>Why I Stopped Tool-Hopping | Modern Man Skills</title>
     <meta
       name="description"
       content="A short field note on what happened when I stopped chasing every new AI tool and committed to one for ninety days."
     />
-    <link rel="stylesheet" href="../assets/styles.css?v=20260427-1250" />
+    <link rel="stylesheet" href="../assets/styles.css?v=20260427-2230" />
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/brand/favicon-32.png" />
     <link rel="apple-touch-icon" href="../assets/brand/favicon-180.png" />
@@ -20,7 +20,7 @@
     <meta name="author" content="Brad Kowitz" />
     <meta property="og:site_name" content="Modern Man Skills" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Why I Stopped Tool-Hopping (And You Should Too)" />
+    <meta property="og:title" content="Why I Stopped Tool-Hopping" />
     <meta
       property="og:description"
       content="A short field note on what happened when I stopped chasing every new AI tool and committed to one for ninety days."
@@ -36,7 +36,7 @@
     <meta property="article:modified_time" content="2026-04-27" />
     <meta property="article:author" content="Brad Kowitz" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Why I Stopped Tool-Hopping (And You Should Too)" />
+    <meta name="twitter:title" content="Why I Stopped Tool-Hopping" />
     <meta
       name="twitter:description"
       content="A short field note on what happened when I stopped chasing every new AI tool and committed to one for ninety days."
@@ -47,7 +47,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Why I Stopped Tool-Hopping (And You Should Too)",
+  "headline": "Why I Stopped Tool-Hopping",
   "description": "A short field note on what happened when I stopped chasing every new AI tool and committed to one for ninety days.",
   "image": "https://modernmanskills.com/assets/brand/og-image.png",
   "url": "https://modernmanskills.com/articles/why-i-stopped-tool-hopping.html",
@@ -76,6 +76,7 @@
     <!-- /SEO/social meta -->
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <div class="topbar">Practical tools. Plain English. No hype.</div>
     <header class="site-header">
       <div class="masthead">
@@ -93,14 +94,14 @@
         ><a href="../workflows/index.html">Workflows</a><a href="../about.html">About</a>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <nav class="breadcrumb-bar">
         <a href="../index.html">Modern Man Skills</a> &nbsp;/&nbsp;
         <a href="../articles/index.html">Guides</a>
       </nav>
       <section class="page-hero">
         <p class="kicker">Field Note</p>
-        <h1 class="page-title">Why I Stopped Tool-Hopping (And You Should Too)</h1>
+        <h1 class="page-title">Why I Stopped Tool-Hopping</h1>
         <p class="dek">
           A short note on what happened when I stopped chasing every new AI tool and committed to
           one for ninety days. The result wasn’t what I expected.
@@ -209,11 +210,14 @@
           </div>
           <form class="signup-form" data-signup>
             <div class="row">
-              <input type="email" name="email" placeholder="your@email.com" required /><button
-                type="submit"
-              >
-                Sign me up
-              </button>
+              <label for="signup-email" class="visually-hidden">Email address</label>
+              <input
+                id="signup-email"
+                type="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              /><button type="submit">Sign me up</button>
             </div>
             <input type="hidden" name="source" value="article" />
             <div class="msg" data-signup-message></div>
