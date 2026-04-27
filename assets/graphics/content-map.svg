@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-label="Modern Man Skills four pillars: AI, Life Admin, Second Act, Field Notes">
+  <rect width="800" height="380" fill="#f3eee4"/>
+  <rect x="2" y="2" width="796" height="376" fill="none" stroke="#1c1815" stroke-width="2"/>
+
+  <line x1="36" y1="48" x2="200" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+  <text x="36" y="38" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">THE FIELD MANUAL</text>
+  <text x="36" y="78" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#1c1815" letter-spacing="-.8">Four pillars. One standard.</text>
+  <text x="36" y="100" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#6b6055">Useful or gone. The whole rule.</text>
+
+  <!-- Center anchor -->
+  <circle cx="400" cy="220" r="56" fill="#1c1815"/>
+  <text x="400" y="212" text-anchor="middle" font-family="Helvetica Neue, Arial" font-size="10" font-weight="900" letter-spacing="2.5" fill="#b8792f">MODERN</text>
+  <text x="400" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="800" fill="#f3eee4" letter-spacing="-.5">MAN SKILLS</text>
+
+  <!-- Connecting lines -->
+  <line x1="222" y1="160" x2="350" y2="208" stroke="#1c1815" stroke-width="1" opacity=".3"/>
+  <line x1="578" y1="160" x2="450" y2="208" stroke="#1c1815" stroke-width="1" opacity=".3"/>
+  <line x1="222" y1="290" x2="350" y2="240" stroke="#1c1815" stroke-width="1" opacity=".3"/>
+  <line x1="578" y1="290" x2="450" y2="240" stroke="#1c1815" stroke-width="1" opacity=".3"/>
+
+  <!-- Top-left: AI -->
+  <rect x="48" y="130" width="240" height="64" fill="#fff" stroke="#1c1815" stroke-width="1.6"/>
+  <text x="64" y="152" font-family="Helvetica Neue, Arial" font-size="11" font-weight="900" letter-spacing="2" fill="#b8792f">PILLAR 01 · AI</text>
+  <text x="64" y="172" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">Tools, prompts, workflows,</text>
+  <text x="64" y="188" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">honest opinions on what works.</text>
+
+  <!-- Top-right: Life Admin -->
+  <rect x="512" y="130" width="240" height="64" fill="#fff" stroke="#1c1815" stroke-width="1.6"/>
+  <text x="528" y="152" font-family="Helvetica Neue, Arial" font-size="11" font-weight="900" letter-spacing="2" fill="#b8792f">PILLAR 02 · LIFE ADMIN</text>
+  <text x="528" y="172" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">Security, household systems,</text>
+  <text x="528" y="188" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">the boring stuff that prevents pain.</text>
+
+  <!-- Bottom-left: Second Act -->
+  <rect x="48" y="252" width="240" height="64" fill="#fff" stroke="#1c1815" stroke-width="1.6"/>
+  <text x="64" y="274" font-family="Helvetica Neue, Arial" font-size="11" font-weight="900" letter-spacing="2" fill="#b8792f">PILLAR 03 · SECOND ACT</text>
+  <text x="64" y="294" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">Career, side business, midlife</text>
+  <text x="64" y="310" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">direction. Built without burnout.</text>
+
+  <!-- Bottom-right: Field Notes -->
+  <rect x="512" y="252" width="240" height="64" fill="#fff" stroke="#1c1815" stroke-width="1.6"/>
+  <text x="528" y="274" font-family="Helvetica Neue, Arial" font-size="11" font-weight="900" letter-spacing="2" fill="#b8792f">PILLAR 04 · FIELD NOTES</text>
+  <text x="528" y="294" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">Shorter, more personal pieces.</text>
+  <text x="528" y="310" font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">Straight from the bench.</text>
+
+  <line x1="36" y1="344" x2="100" y2="344" stroke="#d6cfbf" stroke-width="1"/>
+  <text x="36" y="362" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6b6055">If it protects family, saves time, lowers risk — keep it.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-label="Time saved on common tasks using AI">
+  <rect width="800" height="380" fill="#f3eee4"/>
+  <rect x="2" y="2" width="796" height="376" fill="none" stroke="#1c1815" stroke-width="2"/>
+
+  <text x="36" y="38" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">FIELD DATA</text>
+  <line x1="36" y1="48" x2="160" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+  <text x="36" y="78" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#1c1815" letter-spacing="-.8">Time saved on common tasks</text>
+  <text x="36" y="100" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#6b6055">Top bar: solo. Bottom bar: with AI assist.</text>
+
+  <!-- Chart: 3 task pairs. Scale: 1 minute = 4px. Max axis = 150 min. -->
+  <g transform="translate(36, 132)">
+    <!-- Group 1: Email — 45 min vs 8 min -->
+    <text x="0" y="14" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="1.5" fill="#1c1815">DRAFTING A TOUGH EMAIL</text>
+    <rect x="0" y="22" width="180" height="13" fill="#1c1815"/>
+    <text x="190" y="33" font-family="Helvetica Neue, Arial" font-size="12" font-weight="700" fill="#6b6055">45 min</text>
+    <rect x="0" y="38" width="32" height="13" fill="#b8792f"/>
+    <text x="42" y="49" font-family="Helvetica Neue, Arial" font-size="12" font-weight="700" fill="#1c1815">8 min</text>
+    <text x="640" y="42" font-family="Georgia, serif" font-size="22" font-weight="800" fill="#b8792f">−82%</text>
+
+    <!-- Group 2: Vehicles — 120 min vs 20 min -->
+    <text x="0" y="84" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="1.5" fill="#1c1815">RESEARCHING 3 VEHICLES</text>
+    <rect x="0" y="92" width="480" height="13" fill="#1c1815"/>
+    <text x="490" y="103" font-family="Helvetica Neue, Arial" font-size="12" font-weight="700" fill="#6b6055">120 min</text>
+    <rect x="0" y="108" width="80" height="13" fill="#b8792f"/>
+    <text x="90" y="119" font-family="Helvetica Neue, Arial" font-size="12" font-weight="700" fill="#1c1815">20 min</text>
+    <text x="640" y="112" font-family="Georgia, serif" font-size="22" font-weight="800" fill="#b8792f">−83%</text>
+
+    <!-- Group 3: Contract — 75 min vs 10 min -->
+    <text x="0" y="154" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="1.5" fill="#1c1815">UNDERSTANDING A CONTRACT</text>
+    <rect x="0" y="162" width="300" height="13" fill="#1c1815"/>
+    <text x="310" y="173" font-family="Helvetica Neue, Arial" font-size="12" font-weight="700" fill="#6b6055">75 min</text>
+    <rect x="0" y="178" width="40" height="13" fill="#b8792f"/>
+    <text x="50" y="189" font-family="Helvetica Neue, Arial" font-size="12" font-weight="700" fill="#1c1815">10 min</text>
+    <text x="640" y="182" font-family="Georgia, serif" font-size="22" font-weight="800" fill="#b8792f">−87%</text>
+  </g>
+
+  <line x1="36" y1="344" x2="100" y2="344" stroke="#d6cfbf" stroke-width="1"/>
+  <text x="36" y="362" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6b6055">Illustrative figures from real reader workflows.</text>
+</svg>

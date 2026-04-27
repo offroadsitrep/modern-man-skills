@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img">
+<rect width="800" height="380" fill="#f3eee4"/>
+<rect x="2" y="2" width="796" height="376" fill="none" stroke="#1c1815" stroke-width="2"/>
+<text x="36" y="38" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">THE FOUNDATION</text>
+<line x1="36" y1="48" x2="162" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+<text x="36" y="88" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">Four pillars.</text>
+<text x="36" y="132" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">One standard.</text>
+<text x="36" y="182" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#6b6055">Useful or gone. The whole rule.</text>
+<g font-family="Helvetica Neue, Arial, sans-serif">
+<rect x="36" y="212" width="356" height="59" fill="#1c1815"/>
+<text x="54" y="251" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">01</text>
+<text x="108" y="236" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2.2">AI &amp; TOOLS</text>
+<text x="108" y="255" font-size="16" font-weight="700" fill="#f3eee4">The lead pillar</text>
+<rect x="408" y="212" width="356" height="59" fill="#1c1815"/>
+<text x="426" y="251" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">02</text>
+<text x="480" y="236" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2.2">LIFE ADMIN</text>
+<text x="480" y="255" font-size="16" font-weight="700" fill="#f3eee4">Security, household systems</text>
+<rect x="36" y="281" width="356" height="59" fill="#1c1815"/>
+<text x="54" y="320" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">03</text>
+<text x="108" y="305" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2.2">SECOND ACT</text>
+<text x="108" y="324" font-size="16" font-weight="700" fill="#f3eee4">What's next</text>
+<rect x="408" y="281" width="356" height="59" fill="#1c1815"/>
+<text x="426" y="320" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">04</text>
+<text x="480" y="305" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2.2">FIELD NOTES</text>
+<text x="480" y="324" font-size="16" font-weight="700" fill="#f3eee4">Short, personal, sharp</text>
+</g>
+<line x1="36" y1="344" x2="100" y2="344" stroke="#d6cfbf" stroke-width="1"/>
+<text x="36" y="362" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6b6055">If it protects family, saves time, lowers risk — keep it.</text>
+</svg>

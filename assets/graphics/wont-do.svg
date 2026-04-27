@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img">
+<rect width="800" height="380" fill="#f3eee4"/>
+<rect x="2" y="2" width="796" height="376" fill="none" stroke="#1c1815" stroke-width="2"/>
+<text x="36" y="38" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">THE HONEST LIMITS</text>
+<line x1="36" y1="48" x2="189" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+<text x="36" y="88" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">Six things AI</text>
+<text x="36" y="132" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">won't do for you.</text>
+<text x="36" y="182" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#6b6055">The contrarian read. What still requires you.</text>
+<g font-family="Helvetica Neue, Arial, sans-serif">
+<text x="36" y="234" font-family="Georgia, serif" font-size="28" font-weight="800" fill="#b8792f">01</text>
+<text x="86" y="224" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2">DECIDE</text>
+<text x="86" y="242" font-size="17" font-weight="700" fill="#1c1815">About your actual life</text>
+<text x="36" y="278" font-family="Georgia, serif" font-size="28" font-weight="800" fill="#b8792f">02</text>
+<text x="86" y="268" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2">KNOW YOU</text>
+<text x="86" y="286" font-size="17" font-weight="700" fill="#1c1815">Your people, your context</text>
+<text x="36" y="322" font-family="Georgia, serif" font-size="28" font-weight="800" fill="#b8792f">03</text>
+<text x="86" y="312" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2">BE ACCOUNTABLE</text>
+<text x="86" y="330" font-size="17" font-weight="700" fill="#1c1815">When things go sideways</text>
+<text x="412" y="234" font-family="Georgia, serif" font-size="28" font-weight="800" fill="#b8792f">04</text>
+<text x="462" y="224" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2">DO THE WORK</text>
+<text x="462" y="242" font-size="17" font-weight="700" fill="#1c1815">Show up. Stay engaged.</text>
+<text x="412" y="278" font-family="Georgia, serif" font-size="28" font-weight="800" fill="#b8792f">05</text>
+<text x="462" y="268" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2">FEEL</text>
+<text x="462" y="286" font-size="17" font-weight="700" fill="#1c1815">What matters and why</text>
+<text x="412" y="322" font-family="Georgia, serif" font-size="28" font-weight="800" fill="#b8792f">06</text>
+<text x="462" y="312" font-size="10" font-weight="800" fill="#9a8a72" letter-spacing="2">STAND ALONE</text>
+<text x="462" y="330" font-size="17" font-weight="700" fill="#1c1815">It's a tool, not a partner</text>
+</g>
+<line x1="36" y1="344" x2="100" y2="344" stroke="#d6cfbf" stroke-width="1"/>
+<text x="36" y="362" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6b6055">AI is a sharp axe. The chopping is still on you.</text>
+</svg>

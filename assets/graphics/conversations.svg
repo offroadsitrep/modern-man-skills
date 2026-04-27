@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img">
+<rect width="800" height="380" fill="#f3eee4"/>
+<rect x="2" y="2" width="796" height="376" fill="none" stroke="#1c1815" stroke-width="2"/>
+<text x="36" y="38" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">PREP, DON'T WING IT</text>
+<line x1="36" y1="48" x2="207" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+<text x="36" y="88" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">Hard conversation,</text>
+<text x="36" y="132" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">thought through.</text>
+<text x="36" y="182" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#6b6055">Four-step prep before you open your mouth.</text>
+<g font-family="Helvetica Neue, Arial, sans-serif">
+<text x="36" y="238" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">01</text>
+<text x="92" y="226" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.5">DESCRIBE</text>
+<text x="92" y="246" font-size="19" font-weight="700" fill="#1c1815">Get the situation on the page</text>
+<text x="36" y="271" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">02</text>
+<text x="92" y="259" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.5">EMPATHIZE</text>
+<text x="92" y="279" font-size="19" font-weight="700" fill="#1c1815">How does the other side see it?</text>
+<text x="36" y="304" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">03</text>
+<text x="92" y="292" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.5">DRAFT</text>
+<text x="92" y="312" font-size="19" font-weight="700" fill="#1c1815">What's the calm opening?</text>
+<text x="36" y="337" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#b8792f">04</text>
+<text x="92" y="325" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.5">PRE-MORTEM</text>
+<text x="92" y="345" font-size="19" font-weight="700" fill="#1c1815">Where could it go sideways?</text>
+</g>
+<line x1="36" y1="344" x2="100" y2="344" stroke="#d6cfbf" stroke-width="1"/>
+<text x="36" y="362" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6b6055">Walk in prepared. Not scripted.</text>
+</svg>

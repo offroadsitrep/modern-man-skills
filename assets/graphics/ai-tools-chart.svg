@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img">
+<rect width="800" height="380" fill="#f3eee4"/>
+<rect x="2" y="2" width="796" height="376" fill="none" stroke="#1c1815" stroke-width="2"/>
+<text x="36" y="38" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">THE THREE THAT MATTER</text>
+<line x1="36" y1="48" x2="225" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+<text x="36" y="88" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">Three tools.</text>
+<text x="36" y="132" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">Three honest verdicts.</text>
+<text x="36" y="182" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#6b6055">Pick one. Use it daily. Skip the rest.</text>
+<g font-family="Helvetica Neue, Arial, sans-serif">
+<rect x="36" y="212" width="234" height="118" fill="#1c1815"/>
+<text x="54" y="256" font-family="Georgia, serif" font-size="36" font-weight="800" fill="#b8792f">01</text>
+<text x="54" y="284" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.2">CHATGPT</text>
+<text x="54" y="308" font-size="15" font-weight="700" fill="#f3eee4">Start here. The all-arounder.</text>
+<rect x="282" y="212" width="234" height="118" fill="#1c1815"/>
+<text x="300" y="256" font-family="Georgia, serif" font-size="36" font-weight="800" fill="#b8792f">02</text>
+<text x="300" y="284" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.2">CLAUDE</text>
+<text x="300" y="308" font-size="15" font-weight="700" fill="#f3eee4">The careful writing partner.</text>
+<rect x="528" y="212" width="234" height="118" fill="#1c1815"/>
+<text x="546" y="256" font-family="Georgia, serif" font-size="36" font-weight="800" fill="#b8792f">03</text>
+<text x="546" y="284" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.2">GEMINI</text>
+<text x="546" y="308" font-size="15" font-weight="700" fill="#f3eee4">If you live in Google.</text>
+</g>
+<line x1="36" y1="344" x2="100" y2="344" stroke="#d6cfbf" stroke-width="1"/>
+<text x="36" y="362" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6b6055">Don't tool-hop. Pick one. Commit ninety days.</text>
+</svg>

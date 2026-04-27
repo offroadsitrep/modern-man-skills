@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Matrix comparing ChatGPT, Claude, and Gemini">
+  <rect width="800" height="420" fill="#f3eee4"/>
+  <rect x="2" y="2" width="796" height="416" fill="none" stroke="#1c1815" stroke-width="2"/>
+
+  <line x1="36" y1="48" x2="200" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+  <text x="36" y="38" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">TOOL FIT</text>
+  <text x="36" y="78" font-family="Georgia, serif" font-size="32" font-weight="800" fill="#1c1815" letter-spacing="-.8">Three tools. Six jobs.</text>
+  <text x="36" y="100" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#6b6055">Filled = strong fit. Half = workable. Empty = pick another.</text>
+
+  <g transform="translate(36, 134)">
+    <!-- Column headers -->
+    <text x="280" y="0" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="2" fill="#1c1815" text-anchor="middle">CHATGPT</text>
+    <text x="450" y="0" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="2" fill="#1c1815" text-anchor="middle">CLAUDE</text>
+    <text x="620" y="0" font-family="Helvetica Neue, Arial" font-size="13" font-weight="900" letter-spacing="2" fill="#1c1815" text-anchor="middle">GEMINI</text>
+    <line x1="0" y1="14" x2="720" y2="14" stroke="#1c1815" stroke-width=".8" opacity=".5"/>
+
+    <!-- Rows -->
+    <g font-family="Helvetica Neue, Arial" font-size="13" font-weight="700" fill="#1c1815">
+      <text x="0" y="48">Honest sounding-board</text>
+      <circle cx="280" cy="44" r="11" fill="#1c1815"/>
+      <circle cx="450" cy="44" r="11" fill="#b8792f"/>
+      <circle cx="620" cy="44" r="11" fill="none" stroke="#1c1815" stroke-width="2"/>
+      <line x1="0" y1="64" x2="720" y2="64" stroke="#1c1815" stroke-width=".5" opacity=".3"/>
+
+      <text x="0" y="98">Long documents / contracts</text>
+      <circle cx="280" cy="94" r="11" fill="#1c1815"/>
+      <circle cx="450" cy="94" r="11" fill="#1c1815"/>
+      <circle cx="620" cy="94" r="11" fill="none" stroke="#1c1815" stroke-width="2"/>
+      <line x1="0" y1="114" x2="720" y2="114" stroke="#1c1815" stroke-width=".5" opacity=".3"/>
+
+      <text x="0" y="148">Quick answers / web search</text>
+      <path d="M 269 148 a 11 11 0 0 1 22 0" fill="#1c1815"/>
+      <circle cx="280" cy="144" r="11" fill="none" stroke="#1c1815" stroke-width="2"/>
+      <circle cx="450" cy="144" r="11" fill="none" stroke="#1c1815" stroke-width="2"/>
+      <circle cx="620" cy="144" r="11" fill="#1c1815"/>
+      <line x1="0" y1="164" x2="720" y2="164" stroke="#1c1815" stroke-width=".5" opacity=".3"/>
+
+      <text x="0" y="198">Writing in your voice</text>
+      <circle cx="280" cy="194" r="11" fill="#1c1815"/>
+      <circle cx="450" cy="194" r="11" fill="#b8792f"/>
+      <circle cx="620" cy="194" r="11" fill="none" stroke="#1c1815" stroke-width="2"/>
+      <line x1="0" y1="214" x2="720" y2="214" stroke="#1c1815" stroke-width=".5" opacity=".3"/>
+
+      <text x="0" y="248">Trip / research planning</text>
+      <circle cx="280" cy="244" r="11" fill="#1c1815"/>
+      <circle cx="450" cy="244" r="11" fill="#1c1815"/>
+      <circle cx="620" cy="244" r="11" fill="#1c1815"/>
+    </g>
+  </g>
+
+  <line x1="36" y1="384" x2="100" y2="384" stroke="#d6cfbf" stroke-width="1"/>
+  <text x="36" y="402" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#b8792f" font-weight="800">Pick one to start: ChatGPT.</text>
+</svg>

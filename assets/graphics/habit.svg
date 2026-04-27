@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img">
+<rect width="800" height="380" fill="#f3eee4"/>
+<rect x="2" y="2" width="796" height="376" fill="none" stroke="#1c1815" stroke-width="2"/>
+<text x="36" y="38" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3.5" fill="#b8792f">THE 30-DAY RULE</text>
+<line x1="36" y1="48" x2="171" y2="48" stroke="#b8792f" stroke-width="2.5"/>
+<text x="36" y="88" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">One tool.</text>
+<text x="36" y="132" font-family="Georgia, serif" font-size="40" font-weight="800" fill="#1c1815" letter-spacing="-1.2">Daily for a month.</text>
+<text x="36" y="182" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#6b6055">Skill comes from frequency, not intensity.</text>
+<g font-family="Helvetica Neue, Arial, sans-serif">
+<rect x="36" y="212" width="173" height="118" fill="#1c1815"/>
+<text x="54" y="256" font-family="Georgia, serif" font-size="36" font-weight="800" fill="#b8792f">01</text>
+<text x="54" y="284" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.2">AWKWARD</text>
+<text x="54" y="308" font-size="15" font-weight="700" fill="#f3eee4">First week feels weird. Push through.</text>
+<rect x="221" y="212" width="173" height="118" fill="#1c1815"/>
+<text x="239" y="256" font-family="Georgia, serif" font-size="36" font-weight="800" fill="#b8792f">02</text>
+<text x="239" y="284" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.2">CLICKING</text>
+<text x="239" y="308" font-size="15" font-weight="700" fill="#f3eee4">By week two, prompts get sharper.</text>
+<rect x="406" y="212" width="173" height="118" fill="#1c1815"/>
+<text x="424" y="256" font-family="Georgia, serif" font-size="36" font-weight="800" fill="#b8792f">03</text>
+<text x="424" y="284" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.2">HABIT</text>
+<text x="424" y="308" font-size="15" font-weight="700" fill="#f3eee4">Week three: you reach for it first.</text>
+<rect x="591" y="212" width="173" height="118" fill="#1c1815"/>
+<text x="609" y="256" font-family="Georgia, serif" font-size="36" font-weight="800" fill="#b8792f">04</text>
+<text x="609" y="284" font-size="11" font-weight="800" fill="#9a8a72" letter-spacing="2.2">YOURS</text>
+<text x="609" y="308" font-size="15" font-weight="700" fill="#f3eee4">Week four: it's part of how you work.</text>
+</g>
+<line x1="36" y1="344" x2="100" y2="344" stroke="#d6cfbf" stroke-width="1"/>
+<text x="36" y="362" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6b6055">Same tool, every day. Real tasks only.</text>
+</svg>
