@@ -19,16 +19,43 @@ export async function onRequestPost(context) {
     const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     if (!valid) return json({ ok: false, message: 'Enter a valid email.' }, 400);
 
-    const ua = request.headers.get('user-agent') || '';
-    const ip = request.headers.get('cf-connecting-ip') || '';
-    const ipHash = ip ? await sha256(ip) : '';
+    if (!env.BEEHIIV_API_KEY || !env.BEEHIIV_PUBLICATION_ID) {
+      console.error('Beehiiv credentials not configured');
+      return json({ ok: false, message: 'Signup is having a moment. Try again soon.' }, 500);
+    }
 
-    await env.EMAIL_DB.prepare(
-      `INSERT OR IGNORE INTO email_signups (email, source, user_agent, ip_hash) VALUES (?, ?, ?, ?)`
-    ).bind(email, source, ua.slice(0, 240), ipHash).run();
+    const beehiivResponse = await fetch(
+      `https://api.beehiiv.com/v2/publications/${env.BEEHIIV_PUBLICATION_ID}/subscriptions`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${env.BEEHIIV_API_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          reactivate_existing: true,
+          send_welcome_email: true,
+          utm_source: source,
+        }),
+      },
+    );
 
-    return json({ ok: true, message: 'You’re on the list. No spam, no nonsense.' });
+    if (!beehiivResponse.ok) {
+      const errorBody = await beehiivResponse.text();
+      console.error('Beehiiv API error:', beehiivResponse.status, errorBody);
+
+      // 400/422 typically mean validation issues with the request itself
+      if (beehiivResponse.status === 400 || beehiivResponse.status === 422) {
+        return json({ ok: false, message: 'Could not subscribe that email. Try again.' }, 400);
+      }
+
+      return json({ ok: false, message: 'Signup is having a moment. Try again soon.' }, 500);
+    }
+
+    return json({ ok: true, message: "You're on the list. No spam, no nonsense." });
   } catch (err) {
+    console.error('Subscribe error:', err);
     return json({ ok: false, message: 'Signup is having a moment. Try again soon.' }, 500);
   }
 }
@@ -40,12 +67,6 @@ export async function onRequestGet() {
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { 'content-type': 'application/json; charset=utf-8' }
+    headers: { 'content-type': 'application/json; charset=utf-8' },
   });
-}
-
-async function sha256(input) {
-  const bytes = new TextEncoder().encode(input);
-  const hash = await crypto.subtle.digest('SHA-256', bytes);
-  return [...new Uint8Array(hash)].map(b => b.toString(16).padStart(2, '0')).join('');
 }
