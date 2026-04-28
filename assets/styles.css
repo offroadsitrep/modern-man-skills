@@ -261,7 +261,7 @@ main {
   border-bottom: 2px solid var(--line);
 }
 .page-hero .page-title {
-  font-size: clamp(3.2rem, 8vw, 7.5rem);
+  font-size: clamp(2.4rem, 5vw, 4rem);
 }
 .content-grid {
   display: grid;
@@ -3182,4 +3182,8 @@ body {
 :focus-visible {
   outline: 3px solid var(--gold);
   outline-offset: 2px;
+}
+/* Active nav state — current page link in publication-gold */
+.nav a[aria-current="page"] {
+  color: var(--gold);
 }
