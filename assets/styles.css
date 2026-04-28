@@ -3184,3 +3184,54 @@ body {
 .nav a[aria-current="page"] {
   color: var(--gold);
 }
+
+/* Numbered checklist row — visual variant for breaking up card-grid monotony */
+.checklist-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-6);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.checklist-row li {
+  border-top: 4px solid var(--ink);
+  padding-top: var(--space-3);
+}
+.checklist-row .num {
+  font-family: var(--serif);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--gold);
+  font-weight: 800;
+  display: block;
+  margin-bottom: var(--space-3);
+  letter-spacing: -0.04em;
+}
+.checklist-row a {
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+.checklist-row a:hover {
+  transform: translateY(-2px);
+}
+.checklist-row h3 {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--space-2);
+}
+.checklist-row p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+@media (max-width: 850px) {
+  .checklist-row {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+}
