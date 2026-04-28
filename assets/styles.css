@@ -2204,10 +2204,6 @@ body {
   }
 }
 
-/* Nav: gold accent on Start Here */
-.site-header .nav a:first-child {
-  color: var(--gold);
-}
 .site-header {
   border-bottom: 1px solid var(--line);
 }
