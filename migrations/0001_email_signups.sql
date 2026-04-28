@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS email_signups (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  email TEXT NOT NULL UNIQUE,
-  source TEXT DEFAULT 'website',
-  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  user_agent TEXT,
-  ip_hash TEXT
-);

@@ -1,7 +1,2 @@
 name = "modern-man-skills"
 pages_build_output_dir = "."
-
-[[d1_databases]]
-binding = "EMAIL_DB"
-database_name = "modern_man_skills_email"
-database_id = "e61c5938-0247-48eb-89cb-25860cef1699"
